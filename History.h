@@ -30,7 +30,7 @@
 #import <Foundation/Foundation.h>
 #import "Result.h"
 
-@interface History : NSObject
+@interface History : NSObject <NSTableViewDataSource>
 {
     NSString		*file;
     NSMutableArray	*records;

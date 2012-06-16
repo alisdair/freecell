@@ -36,7 +36,7 @@ lostDefaultButton = "Bah!";
 /* Retry game button */
 retryGameButton = "Intentar Nuevamente";
 /* Lost sheet text */
-lostText = "No hay movidas válidas. Perdiste con %u movidas!";
+lostText = "No hay movidas v√°lidas. Perdiste con %u movidas!";
 
 
 /*

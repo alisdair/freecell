@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F29D0D33158CE03A0050A6FA /* Freecell_Prefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 32CA4F630368D1EE00C91783 /* Freecell_Prefix.h */; };
+		F29D0D34158CE03A0050A6FA /* GameView.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CD26A404B477F30003D579 /* GameView.h */; };
+		F29D0D35158CE03A0050A6FA /* Table.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B3C1C304B48990008FB189 /* Table.h */; };
+		F29D0D36158CE03A0050A6FA /* Game.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CBECB004B4D1890052BE5F /* Game.h */; };
+		F29D0D37158CE03A0050A6FA /* CardView.h in Headers */ = {isa = PBXBuildFile; fileRef = F2BFB9B104B89C1D0085C4AC /* CardView.h */; };
+		F29D0D38158CE03A0050A6FA /* GameController.h in Headers */ = {isa = PBXBuildFile; fileRef = F24508A204BB163A00664F50 /* GameController.h */; };
+		F29D0D39158CE03A0050A6FA /* TableMove.h in Headers */ = {isa = PBXBuildFile; fileRef = F265026604BF76F50099FD16 /* TableMove.h */; };
+		F29D0D3A158CE03A0050A6FA /* TableLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = F2D5C97F04D01675009D3217 /* TableLocation.h */; };
+		F29D0D3B158CE03A0050A6FA /* History.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CFBFB104D331C700062083 /* History.h */; };
+		F29D0D3C158CE03A0050A6FA /* HistoryController.h in Headers */ = {isa = PBXBuildFile; fileRef = F26D7EC904D5E9BA00388118 /* HistoryController.h */; };
+		F29D0D3D158CE03A0050A6FA /* Result.h in Headers */ = {isa = PBXBuildFile; fileRef = F2E74A2804D6A1A300494E10 /* Result.h */; };
+		F29D0D3E158CE03A0050A6FA /* PreferencesController.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B09AC904DB2C7C00203F18 /* PreferencesController.h */; };
+		F29D0D3F158CE03A0050A6FA /* Card.h in Headers */ = {isa = PBXBuildFile; fileRef = F2ABB4D504B76E8B006A8F0E /* Card.h */; };
+		F29D0D40158CE03A0050A6FA /* vccRand.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B6AE4E07F5933000F80727 /* vccRand.h */; };
+		F29D0D42158CE03A0050A6FA /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		F29D0D43158CE03A0050A6FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		F29D0D44158CE03A0050A6FA /* Freecell.icns in Resources */ = {isa = PBXBuildFile; fileRef = F2E57CE104C20E36005D2EDB /* Freecell.icns */; };
+		F29D0D45158CE03A0050A6FA /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = F2F17F5C04E07FD4003ED142 /* Credits.html */; };
+		F29D0D46158CE03A0050A6FA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2BD40BD04E06C960098C7F4 /* Localizable.strings */; };
+		F29D0D47158CE03A0050A6FA /* Help in Resources */ = {isa = PBXBuildFile; fileRef = F2C630BD04E07BDA00926905 /* Help */; };
+		F29D0D48158CE03A0050A6FA /* bonded.png in Resources */ = {isa = PBXBuildFile; fileRef = F241643C07C7A06B002C0965 /* bonded.png */; };
+		F29D0D4A158CE03A0050A6FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		F29D0D4B158CE03A0050A6FA /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CD26A504B477F30003D579 /* GameView.m */; };
+		F29D0D4C158CE03A0050A6FA /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CBECB104B4D1890052BE5F /* Game.m */; };
+		F29D0D4D158CE03A0050A6FA /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = F2ABB4D604B76E8B006A8F0E /* Card.m */; };
+		F29D0D4E158CE03A0050A6FA /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BFB9B204B89C1D0085C4AC /* CardView.m */; };
+		F29D0D4F158CE03A0050A6FA /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24508A304BB163A00664F50 /* GameController.m */; };
+		F29D0D50158CE03A0050A6FA /* TableMove.m in Sources */ = {isa = PBXBuildFile; fileRef = F265026704BF76F50099FD16 /* TableMove.m */; };
+		F29D0D51158CE03A0050A6FA /* Table.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B3C1C404B48990008FB189 /* Table.m */; };
+		F29D0D52158CE03A0050A6FA /* TableLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D5C98104D01684009D3217 /* TableLocation.m */; };
+		F29D0D53158CE03A0050A6FA /* History.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CFBFB204D331C700062083 /* History.m */; };
+		F29D0D54158CE03A0050A6FA /* HistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26D7ECA04D5E9BA00388118 /* HistoryController.m */; };
+		F29D0D55158CE03A0050A6FA /* Result.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E74A2904D6A1A300494E10 /* Result.m */; };
+		F29D0D56158CE03A0050A6FA /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B09ACA04DB2C7C00203F18 /* PreferencesController.m */; };
+		F29D0D57158CE03A0050A6FA /* vccRand.c in Sources */ = {isa = PBXBuildFile; fileRef = F2B6AE4D07F5933000F80727 /* vccRand.c */; };
+		F29D0D59158CE03A0050A6FA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Freecell_Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Freecell_Prefix.h; sourceTree = "<group>"; };
+		F21273FF0508ADD60038B809 /* French */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = French; path = French.lproj/Help; sourceTree = "<group>"; };
+		F241643C07C7A06B002C0965 /* bonded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bonded.png; path = Cards/bonded.png; sourceTree = "<group>"; };
+		F24508A204BB163A00664F50 /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		F24508A304BB163A00664F50 /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		F247590907C9436F007E46D8 /* Finnish */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Finnish; path = Finnish.lproj/Help; sourceTree = "<group>"; };
+		F265026604BF76F50099FD16 /* TableMove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableMove.h; sourceTree = "<group>"; };
+		F265026704BF76F50099FD16 /* TableMove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableMove.m; sourceTree = "<group>"; };
+		F26D7EC904D5E9BA00388118 /* HistoryController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = HistoryController.h; sourceTree = "<group>"; };
+		F26D7ECA04D5E9BA00388118 /* HistoryController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = HistoryController.m; sourceTree = "<group>"; };
+		F290B98C0505E42600DB1354 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = French; path = French.lproj/Credits.html; sourceTree = "<group>"; };
+		F290B98E0505E6BD00DB1354 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		F290B98F0505E6CF00DB1354 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F290B9900505E6DD00DB1354 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2942F5A05023EBC002EC42F /* Dutch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = Dutch; path = Dutch.lproj/Help; sourceTree = "<group>"; };
+		F29D0D5E158CE03A0050A6FA /* Info-Freecell.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Freecell.plist"; sourceTree = "<group>"; };
+		F29D0D5F158CE03A0050A6FA /* Freecell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Freecell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2ABB4D504B76E8B006A8F0E /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		F2ABB4D604B76E8B006A8F0E /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		F2B09AC904DB2C7C00203F18 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		F2B09ACA04DB2C7C00203F18 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		F2B3C1C304B48990008FB189 /* Table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Table.h; sourceTree = "<group>"; };
+		F2B3C1C404B48990008FB189 /* Table.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Table.m; sourceTree = "<group>"; };
+		F2B4CA5B04C3317600634620 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; name = English; path = English.lproj/Credits.html; sourceTree = "<group>"; };
+		F2B6AE4D07F5933000F80727 /* vccRand.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = vccRand.c; sourceTree = "<group>"; };
+		F2B6AE4E07F5933000F80727 /* vccRand.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = vccRand.h; sourceTree = "<group>"; };
+		F2BD40BE04E06C960098C7F4 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2BFB9B104B89C1D0085C4AC /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		F2BFB9B204B89C1D0085C4AC /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		F2C630BE04E07BDA00926905 /* English */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = English; path = English.lproj/Help; sourceTree = "<group>"; };
+		F2CBECB004B4D1890052BE5F /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		F2CBECB104B4D1890052BE5F /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		F2CD26A404B477F30003D579 /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		F2CD26A504B477F30003D579 /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+		F2CFBFB104D331C700062083 /* History.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = History.h; sourceTree = "<group>"; };
+		F2CFBFB204D331C700062083 /* History.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = History.m; sourceTree = "<group>"; };
+		F2D5C97F04D01675009D3217 /* TableLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.h; path = TableLocation.h; sourceTree = "<group>"; usesTabs = 0; };
+		F2D5C98104D01684009D3217 /* TableLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableLocation.m; sourceTree = "<group>"; };
+		F2E1391E05023FEB0059D1F0 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Dutch; path = Dutch.lproj/Credits.html; sourceTree = "<group>"; };
+		F2E13920050240090059D1F0 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Dutch; path = Dutch.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		F2E139210502401B0059D1F0 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Dutch; path = Dutch.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2E139220502402B0059D1F0 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Dutch; path = Dutch.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2E57CE104C20E36005D2EDB /* Freecell.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Freecell.icns; sourceTree = "<group>"; };
+		F2E74A2804D6A1A300494E10 /* Result.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Result.h; sourceTree = "<group>"; };
+		F2E74A2904D6A1A300494E10 /* Result.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Result.m; sourceTree = "<group>"; };
+		F2EBA8CA07C9391D0093A065 /* Finnish */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Finnish; path = Finnish.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		F2EBA8CB07C939260093A065 /* Finnish */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Finnish; path = Finnish.lproj/Credits.html; sourceTree = "<group>"; };
+		F2EBA8CC07C9392C0093A065 /* Finnish */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Finnish; path = Finnish.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2EBA8CD07C939340093A065 /* Finnish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Finnish; path = Finnish.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2F8A98207C9226E00B609CB /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Japanese; path = Japanese.lproj/Help; sourceTree = "<group>"; };
+		F2F8A99407C9227000B609CB /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Spanish; path = Spanish.lproj/Help; sourceTree = "<group>"; };
+		F2FE114707C91DD800C0DC93 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Japanese.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		F2FE114807C91DDB00C0DC93 /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Spanish; path = Spanish.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		F2FE115407C91E0400C0DC93 /* Spanish */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Spanish; path = Spanish.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2FE115507C91E0600C0DC93 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2FE115807C91E1B00C0DC93 /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Spanish; path = Spanish.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2FE115907C91E1D00C0DC93 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2FE118407C91F5300C0DC93 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Japanese; path = Japanese.lproj/Credits.html; sourceTree = "<group>"; };
+		F2FE118507C91F5600C0DC93 /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Spanish; path = Spanish.lproj/Credits.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F29D0D58158CE03A0050A6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29D0D59158CE03A0050A6FA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F2ABB4D504B76E8B006A8F0E /* Card.h */,
+				F2ABB4D604B76E8B006A8F0E /* Card.m */,
+				F2BFB9B104B89C1D0085C4AC /* CardView.h */,
+				F2BFB9B204B89C1D0085C4AC /* CardView.m */,
+				F2B3C1C304B48990008FB189 /* Table.h */,
+				F2B3C1C404B48990008FB189 /* Table.m */,
+				F2D5C97F04D01675009D3217 /* TableLocation.h */,
+				F2D5C98104D01684009D3217 /* TableLocation.m */,
+				F265026604BF76F50099FD16 /* TableMove.h */,
+				F265026704BF76F50099FD16 /* TableMove.m */,
+				F2CBECB004B4D1890052BE5F /* Game.h */,
+				F2CBECB104B4D1890052BE5F /* Game.m */,
+				F2CD26A404B477F30003D579 /* GameView.h */,
+				F2CD26A504B477F30003D579 /* GameView.m */,
+				F24508A204BB163A00664F50 /* GameController.h */,
+				F24508A304BB163A00664F50 /* GameController.m */,
+				F2CFBFB104D331C700062083 /* History.h */,
+				F2CFBFB204D331C700062083 /* History.m */,
+				F26D7EC904D5E9BA00388118 /* HistoryController.h */,
+				F26D7ECA04D5E9BA00388118 /* HistoryController.m */,
+				F2E74A2804D6A1A300494E10 /* Result.h */,
+				F2E74A2904D6A1A300494E10 /* Result.m */,
+				F2B09AC904DB2C7C00203F18 /* PreferencesController.h */,
+				F2B09ACA04DB2C7C00203F18 /* PreferencesController.m */,
+				F2B6AE4D07F5933000F80727 /* vccRand.c */,
+				F2B6AE4E07F5933000F80727 /* vccRand.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F29D0D5F158CE03A0050A6FA /* Freecell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Freecell */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				F2C630BD04E07BDA00926905 /* Help */,
+				F29D0D5E158CE03A0050A6FA /* Info-Freecell.plist */,
+			);
+			name = Freecell;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Freecell_Prefix.h */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F2F17F5C04E07FD4003ED142 /* Credits.html */,
+				F2E57CE104C20E36005D2EDB /* Freecell.icns */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				F2BD40BD04E06C960098C7F4 /* Localizable.strings */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				F263A24604DB34FB00922A1B /* Cards */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F263A24604DB34FB00922A1B /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				F241643C07C7A06B002C0965 /* bonded.png */,
+			);
+			name = Cards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F29D0D32158CE03A0050A6FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29D0D33158CE03A0050A6FA /* Freecell_Prefix.h in Headers */,
+				F29D0D34158CE03A0050A6FA /* GameView.h in Headers */,
+				F29D0D35158CE03A0050A6FA /* Table.h in Headers */,
+				F29D0D36158CE03A0050A6FA /* Game.h in Headers */,
+				F29D0D37158CE03A0050A6FA /* CardView.h in Headers */,
+				F29D0D38158CE03A0050A6FA /* GameController.h in Headers */,
+				F29D0D39158CE03A0050A6FA /* TableMove.h in Headers */,
+				F29D0D3A158CE03A0050A6FA /* TableLocation.h in Headers */,
+				F29D0D3B158CE03A0050A6FA /* History.h in Headers */,
+				F29D0D3C158CE03A0050A6FA /* HistoryController.h in Headers */,
+				F29D0D3D158CE03A0050A6FA /* Result.h in Headers */,
+				F29D0D3E158CE03A0050A6FA /* PreferencesController.h in Headers */,
+				F29D0D3F158CE03A0050A6FA /* Card.h in Headers */,
+				F29D0D40158CE03A0050A6FA /* vccRand.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F29D0D31158CE03A0050A6FA /* Freecell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29D0D5A158CE03A0050A6FA /* Build configuration list for PBXNativeTarget "Freecell" */;
+			buildPhases = (
+				F29D0D32158CE03A0050A6FA /* Headers */,
+				F29D0D41158CE03A0050A6FA /* Resources */,
+				F29D0D49158CE03A0050A6FA /* Sources */,
+				F29D0D58158CE03A0050A6FA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Freecell;
+			productName = Freecell;
+			productReference = F29D0D5F158CE03A0050A6FA /* Freecell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F29D0D27158CDFEE0050A6FA /* Build configuration list for PBXProject "Freecell" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Dutch,
+				Spanish,
+				Finnish,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Freecell */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F29D0D31158CE03A0050A6FA /* Freecell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F29D0D41158CE03A0050A6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29D0D42158CE03A0050A6FA /* MainMenu.nib in Resources */,
+				F29D0D43158CE03A0050A6FA /* InfoPlist.strings in Resources */,
+				F29D0D44158CE03A0050A6FA /* Freecell.icns in Resources */,
+				F29D0D45158CE03A0050A6FA /* Credits.html in Resources */,
+				F29D0D46158CE03A0050A6FA /* Localizable.strings in Resources */,
+				F29D0D47158CE03A0050A6FA /* Help in Resources */,
+				F29D0D48158CE03A0050A6FA /* bonded.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F29D0D49158CE03A0050A6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29D0D4A158CE03A0050A6FA /* main.m in Sources */,
+				F29D0D4B158CE03A0050A6FA /* GameView.m in Sources */,
+				F29D0D4C158CE03A0050A6FA /* Game.m in Sources */,
+				F29D0D4D158CE03A0050A6FA /* Card.m in Sources */,
+				F29D0D4E158CE03A0050A6FA /* CardView.m in Sources */,
+				F29D0D4F158CE03A0050A6FA /* GameController.m in Sources */,
+				F29D0D50158CE03A0050A6FA /* TableMove.m in Sources */,
+				F29D0D51158CE03A0050A6FA /* Table.m in Sources */,
+				F29D0D52158CE03A0050A6FA /* TableLocation.m in Sources */,
+				F29D0D53158CE03A0050A6FA /* History.m in Sources */,
+				F29D0D54158CE03A0050A6FA /* HistoryController.m in Sources */,
+				F29D0D55158CE03A0050A6FA /* Result.m in Sources */,
+				F29D0D56158CE03A0050A6FA /* PreferencesController.m in Sources */,
+				F29D0D57158CE03A0050A6FA /* vccRand.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+				F2E139220502402B0059D1F0 /* Dutch */,
+				F290B98F0505E6CF00DB1354 /* French */,
+				F2FE115807C91E1B00C0DC93 /* Spanish */,
+				F2FE115907C91E1D00C0DC93 /* Japanese */,
+				F2EBA8CD07C939340093A065 /* Finnish */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+				F2E13920050240090059D1F0 /* Dutch */,
+				F290B98E0505E6BD00DB1354 /* French */,
+				F2FE114707C91DD800C0DC93 /* Japanese */,
+				F2FE114807C91DDB00C0DC93 /* Spanish */,
+				F2EBA8CA07C9391D0093A065 /* Finnish */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		F2BD40BD04E06C960098C7F4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2BD40BE04E06C960098C7F4 /* English */,
+				F2E139210502401B0059D1F0 /* Dutch */,
+				F290B9900505E6DD00DB1354 /* French */,
+				F2FE115407C91E0400C0DC93 /* Spanish */,
+				F2FE115507C91E0600C0DC93 /* Japanese */,
+				F2EBA8CC07C9392C0093A065 /* Finnish */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F2C630BD04E07BDA00926905 /* Help */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2C630BE04E07BDA00926905 /* English */,
+				F2942F5A05023EBC002EC42F /* Dutch */,
+				F21273FF0508ADD60038B809 /* French */,
+				F2F8A98207C9226E00B609CB /* Japanese */,
+				F2F8A99407C9227000B609CB /* Spanish */,
+				F247590907C9436F007E46D8 /* Finnish */,
+			);
+			name = Help;
+			sourceTree = "<group>";
+		};
+		F2F17F5C04E07FD4003ED142 /* Credits.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2B4CA5B04C3317600634620 /* English */,
+				F2E1391E05023FEB0059D1F0 /* Dutch */,
+				F290B98C0505E42600DB1354 /* French */,
+				F2FE118507C91F5600C0DC93 /* Spanish */,
+				F2FE118407C91F5300C0DC93 /* Japanese */,
+				F2EBA8CB07C939260093A065 /* Finnish */,
+			);
+			name = Credits.html;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F29D0CBC158CDFEE0050A6FA /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		F29D0CBD158CDFEE0050A6FA /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		F29D0CBE158CDFEE0050A6FA /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		F29D0D5B158CE03A0050A6FA /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 52;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Freecell_Prefix.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-Freecell.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Freecell;
+				SECTORDER_FLAGS = "";
+				VERSIONING_SYSTEM = "apple-generic";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		F29D0D5C158CE03A0050A6FA /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 52;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Freecell_Prefix.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-Freecell__Upgraded_.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Freecell;
+				SECTORDER_FLAGS = "";
+				VERSIONING_SYSTEM = "apple-generic";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		F29D0D5D158CE03A0050A6FA /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 52;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Freecell_Prefix.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-Freecell__Upgraded_.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Freecell;
+				SECTORDER_FLAGS = "";
+				VERSIONING_SYSTEM = "apple-generic";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F29D0D27158CDFEE0050A6FA /* Build configuration list for PBXProject "Freecell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29D0CBC158CDFEE0050A6FA /* Development */,
+				F29D0CBD158CDFEE0050A6FA /* Deployment */,
+				F29D0CBE158CDFEE0050A6FA /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		F29D0D5A158CE03A0050A6FA /* Build configuration list for PBXNativeTarget "Freecell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29D0D5B158CE03A0050A6FA /* Development */,
+				F29D0D5C158CE03A0050A6FA /* Deployment */,
+				F29D0D5D158CE03A0050A6FA /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

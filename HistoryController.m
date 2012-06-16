@@ -155,20 +155,9 @@
 
 - (void) HC_setDateFormat
 {
-    NSString *order, *format;
-    NSDateFormatter *formatter;
-
-    order = [[NSUserDefaults standardUserDefaults] stringForKey: NSShortDateFormatString];
-
-    // If the short date format is day/month/year, display as `day month, year'
-    if ([order isEqual: @"%e/%1m/%y"])
-        format = @"%e %B, %Y";
-    // Otherwise display as `month day, year'
-    else
-        format = @"%B %e, %Y";
-    
-    formatter = [[NSDateFormatter alloc] initWithDateFormat: format
-                                       allowNaturalLanguage: NO];
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+	[formatter setTimeStyle:NSDateFormatterNoStyle];
+	[formatter setDateStyle:NSDateFormatterShortStyle];
     [[lastPlayedColumn dataCell] setFormatter: formatter];
 }
 
