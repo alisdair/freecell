@@ -1,0 +1,56 @@
+/* Localized versions of application string keys */
+
+/*
+ * Sheet text
+ */
+
+/* windowShouldClose sheet title */
+closeTitle = "Sluit venster";
+/* Close button */
+closeButton = "Sluit";
+/* Cancel button */
+cancelButton = "Annuleer";
+/* windowShouldClose sheet text */
+closeText = "Als u dit venster afsluit, vervalt het spel.";
+
+/* New game sheet title */
+newGameTitle = "Nieuw spel";
+/* New game button */
+newGameButton = "Nieuw spel";
+/* New game sheet text */
+newGameText = "Als u een nieuw spel begint, vervalt uw huidige spel";
+
+/* Won sheet title */
+wonTitle = "U wint!";
+/* Won sheet default button */
+wonDefaultButton = "Jaaa!";
+/* Show history button */
+showHistoryButton = "Toon geschiedenis";
+/* Won sheet text */
+wonText = "U heeft gewonnen na %u zetten! Goed gedaan.";
+
+/* Lost sheet title */
+lostTitle = "U verliest!";
+/* Lost sheet default button */
+lostDefaultButton = "Bah!";
+/* Retry game button */
+retryGameButton = "Speel het spel opnieuw";
+/* Lost sheet text */
+lostText = "Er zijn geen geldige zetten meer mogelijk. U heeft verloren na %u zetten!";
+
+
+/*
+ * Miscellaneous
+ */
+
+/* Format for the title of the game window */
+gameWindowTitleFormat = "Freecell (spelnummer %@)";
+
+/* Result: loss */
+resultLoss = "verloren";
+/* Result: win */
+resultWin = "gewonnen";
+
+/* For status bar */
+bestIs = "best is";
+moves = "moves";

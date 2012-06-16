@@ -1,0 +1,56 @@
+/* Localized versions of application string keys */
+
+/*
+ * Sheet text
+ */
+
+/* windowShouldClose sheet title */
+closeTitle = "Fermer la fenêtre";
+/* Close button */
+closeButton = "Fermer";
+/* Cancel button */
+cancelButton = "Annuler";
+/* windowShouldClose sheet text */
+closeText = "Fermer la fenêtre signifie que vous renoncez à la partie courante.";
+
+/* New game sheet title */
+newGameTitle = "Nouvelle Partie";
+/* New game button */
+newGameButton = "Nouvelle Partie";
+/* New game sheet text */
+newGameText = "Commencer une nouvelle partie signifie que vous renoncez à la partie courante.";
+
+/* Won sheet title */
+wonTitle = "Vous avez gagné!";
+/* Won sheet default button */
+wonDefaultButton = "Hourra!";
+/* Show history button */
+showHistoryButton = "Afficher l'historique";
+/* Won sheet text */
+wonText = "Vous avez gagné après %u déplacement. Bien joué!";
+
+/* Lost sheet title */
+lostTitle = "Vous avez perdu!";
+/* Lost sheet default button */
+lostDefaultButton = "Bah!";
+/* Retry game button */
+retryGameButton = "Réessayer";
+/* Lost sheet text */
+lostText = "Il n'y a plus de déplacement valide. Vous avez perdu après %u déplacements!";
+
+
+/*
+ * Miscellaneous
+ */
+
+/* Format for the title of the game window */
+gameWindowTitleFormat = "Freecell (Jeu numéro %@)";
+
+/* Result: loss */
+resultLoss = "Perdu";
+/* Result: win */
+resultWin = "Gagné";
+
+/* For status bar */
+bestIs = "le record actuel est";
+moves = "coups";

@@ -1,0 +1,56 @@
+/* Localized versions of application string keys */
+
+/*
+ * Sheet text
+ */
+
+/* windowShouldClose sheet title */
+closeTitle = "Sulje ikkuna";
+/* Close button */
+closeButton = "Sulje";
+/* Cancel button */
+cancelButton = "Kumoa";
+/* windowShouldClose sheet text */
+closeText = "Tämän ikkunan sulkeminen lopettaa pelin.";
+
+/* New game sheet title */
+newGameTitle = "Uusi peli";
+/* New game button */
+newGameButton = "Uusi peli";
+/* New game sheet text */
+newGameText = "Uuden pelin aloittaminen lopettaa tämänhetkisen pelin.";
+
+/* Won sheet title */
+wonTitle = "Sinä voitit!";
+/* Won sheet default button */
+wonDefaultButton = "Jippii!";
+/* Show history button */
+showHistoryButton = "Näytä tilastot";
+/* Won sheet text */
+wonText = "Voitit %u siirron jälkeen! Hieno suoritus!";
+
+/* Lost sheet title */
+lostTitle = "Sinä hävisit!";
+/* Lost sheet default button */
+lostDefaultButton = "Pahus!";
+/* Retry game button */
+retryGameButton = "Pelaa uudelleen";
+/* Lost sheet text */
+lostText = "Mahdollisia siirtoja ei ole enää jäljellä. Hävisit %u siirron jälkeen!";
+
+
+/*
+ * Miscellaneous
+ */
+
+/* Format for the title of the game window */
+gameWindowTitleFormat = "Freecell (pöytä numero %@)";
+
+/* Result: loss */
+resultLoss = "Häviö";
+/* Result: win */
+resultWin = "Voitto";
+
+/* For status bar */
+bestIs = "ennätys";
+moves = "siirtoa";

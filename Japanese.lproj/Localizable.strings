@@ -1,0 +1,56 @@
+/* Localized versions of application string keys */
+
+/*
+ * Sheet text
+ */
+
+/* windowShouldClose sheet title */
+closeTitle = "ウインドウを閉じる";
+/* Close button */
+closeButton = "閉じる";
+/* Cancel button */
+cancelButton = "キャンセル";
+/* windowShouldClose sheet text */
+closeText = "ウインドウを閉じるとゲームが終了します。";
+
+/* New game sheet title */
+newGameTitle = "新しいゲームを始める";
+/* New game button */
+newGameButton = "新しいゲーム";
+/* New game sheet text */
+newGameText = "新しいゲームを始めると現在のゲームが終了します。";
+
+/* Won sheet title */
+wonTitle = "あなたの勝ちです!";
+/* Won sheet default button */
+wonDefaultButton = "おめでとう!";
+/* Show history button */
+showHistoryButton = "成績表を見る";
+/* Won sheet text */
+wonText = "%u手であなたが勝ちました。おめでとう!";
+
+/* Lost sheet title */
+lostTitle = "あなたの負けです!";
+/* Lost sheet default button */
+lostDefaultButton = "残念でした";
+/* Retry game button */
+retryGameButton = "もう一度挑戦";
+/* Lost sheet text */
+lostText = "もう動かせるカードがありません。%u手であなたの負けです。";
+
+
+/*
+ * Miscellaneous
+ */
+
+/* Format for the title of the game window */
+gameWindowTitleFormat = "フリーセル (ゲーム番号%@)";
+
+/* Result: loss */
+resultLoss = "負け";
+/* Result: win */
+resultWin = "勝ち";
+
+/* For status bar */
+bestIs = "自己最高";
+moves = "手";
