@@ -480,7 +480,7 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Info-Freecell__Upgraded_.plist";
+				INFOPLIST_FILE = "Info-Freecell.plist";
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
