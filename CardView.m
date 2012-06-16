@@ -58,8 +58,8 @@
     
     // Placeholder blank
     blank = [[NSImage alloc] initWithSize: cardSize];
-    source = NSMakeRect(0, bondedSize.height - 5 * cardSize.height - 1,
-                        cardSize.width - 1, cardSize.height);
+    source = NSMakeRect(0, bondedSize.height - 5 * cardSize.height,
+                        cardSize.width, cardSize.height);
     
     [blank lockFocus];
     [bonded compositeToPoint: NSMakePoint(0, 0)
@@ -69,8 +69,8 @@
     
     // Selected blank (for placeholders and compositing selected cards)
     selectedBlank = [[NSImage alloc] initWithSize: cardSize];
-    source = NSMakeRect(cardSize.width, bondedSize.height - 5 * cardSize.height - 1,
-                        cardSize.width - 1, cardSize.height);
+    source = NSMakeRect(cardSize.width, bondedSize.height - 5 * cardSize.height,
+                        cardSize.width, cardSize.height);
     
     [selectedBlank lockFocus];
     [bonded compositeToPoint: NSMakePoint(0, 0)
@@ -96,8 +96,8 @@
         {
             card = [[[NSImage alloc] initWithSize: cardSize] autorelease];
             source = NSMakeRect((j - 1) * cardSize.width,
-                                       bondedSize.height - (i + 1) * cardSize.height - 1, // Ick!
-                                       cardSize.width - 1, cardSize.height);
+                                       bondedSize.height - (i + 1) * cardSize.height,
+                                       cardSize.width, cardSize.height);
             
             [card lockFocus];
             [bonded compositeToPoint: NSMakePoint(0, 0)
