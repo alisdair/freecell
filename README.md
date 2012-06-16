@@ -1,6 +1,6 @@
 # Freecell
 
-Freecell for Mac OS X.
+[Freecell for Mac OS X](http://randomoracle.com/freecell/).
 
 ## What's Freecell?
 
