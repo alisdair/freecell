@@ -39,7 +39,6 @@
 {
     IBOutlet GameView       *view;
     IBOutlet NSWindow       *window;
-    IBOutlet NSPanel        *donatePanel;
     IBOutlet NSPanel        *playNumberDialog;
     IBOutlet NSTextField    *gameNumberField;
     IBOutlet NSTextField    *timeElapsed;
@@ -61,9 +60,6 @@
 - (IBAction) showHint: (id) sender;
 - (IBAction) undo: (id) sender;
 - (IBAction) redo: (id) sender;
-- (IBAction) donate: (id) sender;
-- (IBAction) notYet: (id) sender;
-- (IBAction) haveDonated: (id) sender;
 
 // Timer stuff
 //

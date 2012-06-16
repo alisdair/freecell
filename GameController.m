@@ -357,7 +357,6 @@
 
 - (void) gameOver
 {
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSString *title, *defaultButton, *alternateButton, *message;
     SEL selector;
     Result *result = [game result];
@@ -393,40 +392,6 @@
     NSBeginAlertSheet(title, defaultButton, alternateButton,
                       NSLocalizedString(@"newGameButton", @"New game button"),
                       window, self, selector, NULL, NULL, message, moves);
-
-    if ([defaults boolForKey: @"donated"] == NO
-        && ([history numberOfGamesWon] % 20) == 0)
-    {
-        [NSApp runModalForWindow: donatePanel];
-    }
-}
-
-- (IBAction) donate: (id) sender
-{
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    [defaults setObject: [NSNumber numberWithBool: YES] forKey: @"donated"];
-    [defaults synchronize];
-
-    [[NSWorkspace sharedWorkspace] openURL:
-        [NSURL URLWithString: @"http://randomoracle.com/freecell/donate"]];
-    [donatePanel close];
-    [NSApp stopModal];
-}
-
-- (IBAction) notYet: (id) sender
-{
-    [donatePanel close];
-    [NSApp stopModal];
-}
-
-- (IBAction) haveDonated: (id) sender
-{
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    [defaults setObject: [NSNumber numberWithBool: YES] forKey: @"donated"];
-    [defaults synchronize];
-
-    [donatePanel close];
-    [NSApp stopModal];
 }
 
 @end
