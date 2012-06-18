@@ -2,6 +2,8 @@
 
 [Freecell for Mac OS X](http://randomoracle.com/freecell/).
 
+![Screenshot of Freecell](http://randomoracle.com/freecell/screenshots/game.png)
+
 ## What's Freecell?
 
 Freecell is a solitaire card game in which almost any deal can be won, if you have enough skill. The card table consists of four free cells (top left), four stacks (top right), and eight columns (bottom).
