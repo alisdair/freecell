@@ -99,7 +99,7 @@
     NSDictionary *oldRecord;
     NSMutableDictionary *record;
 
-    while (oldRecord = [self recordWithGameNumber: gameNumber])
+    while ((oldRecord = [self recordWithGameNumber: gameNumber]))
         [records removeObject: oldRecord];
 
     record = [NSMutableDictionary dictionaryWithCapacity: 5];

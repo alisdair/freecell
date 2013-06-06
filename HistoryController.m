@@ -49,9 +49,7 @@
 {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     
-    NSString *file = [NSString stringWithString:
-        @"~/Library/Preferences/org.wasters.Freecell.history.plist"];
-    file = [file stringByExpandingTildeInPath];
+    NSString *file = [@"~/Library/Preferences/org.wasters.Freecell.history.plist" stringByExpandingTildeInPath];
     history = [[History alloc] initWithFile: file];
 
     [tableView setDataSource: history];
