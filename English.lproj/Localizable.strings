@@ -38,6 +38,13 @@ retryGameButton = "Retry Game";
 /* Lost sheet text */
 lostText = "There are no more valid moves. You lost after %u moves!";
 
+/* Clear history sheet title */
+clearTitle = "Delete history";
+/* Clear history button */
+clearButton = "Delete all history";
+/* Clear history sheet text */
+clearText = "Are you sure you want to delete your game history?";
+
 
 /*
  * Miscellaneous
