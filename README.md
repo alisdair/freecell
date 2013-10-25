@@ -1,6 +1,6 @@
 # Freecell
 
-[Freecell for Mac OS X](http://randomoracle.com/freecell/).
+[Freecell for Mac OS X—download here](https://www.dropbox.com/sh/wjzokkf6a4kg8c6/RRXmZWaORp).
 
 ![Screenshot of Freecell](http://randomoracle.com/freecell/screenshots/game.png)
 
