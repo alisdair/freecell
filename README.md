@@ -2,7 +2,7 @@
 
 [Freecell for Mac OS X—download here](https://www.dropbox.com/sh/wjzokkf6a4kg8c6/RRXmZWaORp).
 
-![Screenshot of Freecell](http://randomoracle.com/freecell/screenshots/game.png)
+![Screenshot of Freecell](http://i.imgur.com/C0eGcRj.png)
 
 ## What's Freecell?
 
