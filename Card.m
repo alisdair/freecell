@@ -61,7 +61,7 @@
 //
 
 
-- (unsigned) hash
+- (NSUInteger) hash
 {
     // Suit ranges from 0 to 3; rank ranges from 1 (ACE) to 13 (KING).
     // This therefore returns a unique number between 0 and 51.

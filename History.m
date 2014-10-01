@@ -58,13 +58,13 @@
 // Overridden methods
 //
 
-- (int) numberOfRowsInTableView: (NSTableView *) tableView
+- (NSInteger) numberOfRowsInTableView: (NSTableView *) tableView
 {
     return [records count];
 }
 
 - tableView: (NSTableView *) tableView objectValueForTableColumn: (NSTableColumn *) column
-        row: (int) row
+        row: (NSInteger) row
 {
     id object = [[self record: row] objectForKey: [column identifier]];
 
