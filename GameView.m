@@ -99,9 +99,11 @@
         else
             operation = NSCompositeSourceOver;
                 
-        [image compositeToPoint: origin
-                      operation: operation
-                       fraction: card == nil? 0.5 : 1.0 ];
+        //[image compositeToPoint: origin
+        //             operation: operation
+        //               fraction: card == nil? 0.5 : 1.0 ];
+        [ image drawAtPoint: origin fromRect: frame operation: operation
+                   fraction: card == nil ? 0.5 : 1.0 ];
     }
     
     for (i = 0; i < NUMBER_OF_STACKS; i++)
@@ -119,10 +121,12 @@
         else
             operation = NSCompositeSourceOver;
         
-        [image compositeToPoint: origin
-                      operation: operation
-                       fraction: card == nil? 0.25 : 1.0 ];
-    }
+        //[image compositeToPoint: origin
+        //              operation: operation
+        //               fraction: card == nil? 0.25 : 1.0 ];
+        [ image drawAtPoint: origin fromRect: frame operation: operation
+                   fraction: card == nil ? 0.25 : 1.0 ];
+   }
 
     for (i = 0; i < NUMBER_OF_COLUMNS; i++)
     {
@@ -143,8 +147,10 @@
                                          frame.size.height - edgeMargin
                                          - (cardHeight + margin) * 2 - o * row);
             NSImage *image = [cardView imageForCard: card selected: [game isCardSelected: card]];
-            [image compositeToPoint: origin operation: NSCompositeSourceOver];
-        }
+            //[image compositeToPoint: origin operation: NSCompositeSourceOver];
+            [ image drawAtPoint: origin fromRect: frame operation: NSCompositeSourceOver
+                       fraction: 1.0 ];
+       }
 
         // If the column is empty and selected, draw the selected image
         if (row == 0 && [game isTableLocationSelected: [TableLocation locationWithType: COLUMN number: i]])
@@ -153,7 +159,9 @@
                                          frame.size.height - edgeMargin
                                          - (cardHeight + margin) * 2);
             NSImage *image = [cardView imageForCard: nil selected: YES];
-            [image compositeToPoint: origin operation: NSCompositePlusDarker fraction: 0.5];
+            //[image compositeToPoint: origin operation: NSCompositePlusDarker fraction: 0.5];
+            [ image drawAtPoint: origin fromRect: frame operation: NSCompositePlusDarker
+                       fraction: 0.5 ];
         }
     }
 }

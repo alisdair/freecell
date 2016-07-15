@@ -62,9 +62,10 @@
                         cardSize.width, cardSize.height);
     
     [blank lockFocus];
-    [bonded compositeToPoint: NSMakePoint(0, 0)
+    [bonded drawAtPoint: NSMakePoint(0, 0)
                     fromRect: source
-                   operation: NSCompositeCopy];
+                   operation: NSCompositeCopy
+                    fraction: 1.0 ];
     [blank unlockFocus];
     
     // Selected blank (for placeholders and compositing selected cards)
@@ -73,9 +74,10 @@
                         cardSize.width, cardSize.height);
     
     [selectedBlank lockFocus];
-    [bonded compositeToPoint: NSMakePoint(0, 0)
+    [bonded drawAtPoint: NSMakePoint(0, 0)
                     fromRect: source
-                   operation: NSCompositeCopy];
+                   operation: NSCompositeCopy
+               fraction: 1.0];
     [selectedBlank unlockFocus];
 }
 
@@ -100,9 +102,10 @@
                                        cardSize.width, cardSize.height);
             
             [card lockFocus];
-            [bonded compositeToPoint: NSMakePoint(0, 0)
+            [bonded drawAtPoint: NSMakePoint(0, 0)
                             fromRect: source
-                           operation: NSCompositeCopy];
+                           operation: NSCompositeCopy
+                            fraction: 1.0];
             [card unlockFocus];
             
             [dict setObject: card forKey: [Card cardWithSuit: i rank: j]];
