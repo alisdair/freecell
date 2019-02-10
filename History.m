@@ -144,7 +144,7 @@
     return n;
 }
 
-- (NSDictionary *) record: (unsigned) n
+- (NSDictionary *) record: (NSUInteger) n
 {
     if (n < [records count])
         return [records objectAtIndex: n];
@@ -152,7 +152,7 @@
     return nil;
 }
 
-- (NSNumber *) gameNumberForRecord: (unsigned) n
+- (NSNumber *) gameNumberForRecord: (NSUInteger) n
 {
     return [[self record: n] objectForKey: @"gameNumber"];
 }

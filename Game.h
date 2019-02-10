@@ -81,7 +81,7 @@
 - (NSNumber *) gameNumber;
 - (NSDate *) startDate;
 - (Result *) result;
-- (unsigned) moves;
+- (NSUInteger) moves;
 - (NSTimeInterval) duration;
 - (BOOL) inProgress;
 - (BOOL) canUndo;

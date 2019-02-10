@@ -54,8 +54,8 @@
 //
 
 - (unsigned) numberOfRecordsWithResult: (Result *) result;
-- (NSDictionary *) record: (unsigned) n;
-- (NSNumber *) gameNumberForRecord: (unsigned) n;
+- (NSDictionary *) record: (NSUInteger) n;
+- (NSNumber *) gameNumberForRecord: (NSUInteger) n;
 - (NSDictionary *) recordWithGameNumber: (NSNumber *) gameNumber;
 - (NSDate *) shortestDuration;
 - (unsigned) shortestMoves;

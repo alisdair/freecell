@@ -188,7 +188,7 @@
 
 - (IBAction) retryGame: (id) sender
 {
-    int row = [tableView selectedRow];
+    NSInteger row = [tableView selectedRow];
 
     // Ignore double-clicks on the TableView if they are on a column header
     if (sender == tableView && [tableView clickedRow] == -1)

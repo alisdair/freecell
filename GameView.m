@@ -131,7 +131,7 @@
         NSEnumerator *enumerator = [column objectEnumerator];
         Card *card;
         int row;
-        int count = [column count];
+        NSUInteger count = [column count];
         unsigned maxHeight = 19 * smallOverlap;
         unsigned short o;
 

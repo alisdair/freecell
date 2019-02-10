@@ -46,7 +46,7 @@
 
 - (void) awakeFromNib
 {
-    srandom(time(NULL));
+    srandom((unsigned int)time(NULL));
 
     [history awakeFromNib];
     [self updateTime: timer];
@@ -311,9 +311,9 @@
 
 - (void) moveMade
 {
-    unsigned currentMoves = [game moves];
-    unsigned shortestMoves = [history shortestMoves];
-    [movesMade setStringValue: [NSString stringWithFormat: @"%d %@ (%@ %d)",
+    NSUInteger currentMoves = [game moves];
+    NSUInteger shortestMoves = [history shortestMoves];
+    [movesMade setStringValue: [NSString stringWithFormat: @"%lu %@ (%@ %lu)",
         currentMoves, NSLocalizedString(@"moves", "moves"),
         NSLocalizedString(@"bestIs", "best is"), shortestMoves]];
 }
@@ -360,7 +360,7 @@
     NSString *title, *defaultButton, *alternateButton, *message;
     SEL selector;
     Result *result = [game result];
-    unsigned moves = [game moves];
+    NSUInteger moves = [game moves];
 
     [timer fire];
     

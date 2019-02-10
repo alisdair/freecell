@@ -81,7 +81,7 @@
 {
     NSMutableArray *source = (NSMutableArray *) [self arrayForLocation: [move source]];
     NSMutableArray *destination = (NSMutableArray *) [self arrayForLocation: [move destination]];
-    unsigned i, first, last;
+    unsigned long i, first, last;
 
     first = [source count] - [move count];
     last  = [source count];

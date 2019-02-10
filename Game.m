@@ -107,10 +107,10 @@
 {
     TableLocation *deckTableLocation = [TableLocation locationWithType: DECK number: 0];
     NSMutableArray *deck = (NSMutableArray *) [table arrayForLocation: deckTableLocation];
-    unsigned i, n;
+    NSUInteger i, n;
 	
 	// Shuffle the deck
-	vcpp_srand((unsigned long) [gameNumber doubleValue]);
+	vcpp_srand((unsigned int) [gameNumber doubleValue]);
 	for (i = [deck count]; i > 0; i--)
 	{
 		unsigned j = vcpp_rand() % i;
@@ -540,7 +540,7 @@ foundHint:
     return result;
 }
 
-- (unsigned) moves
+- (NSUInteger) moves
 {
     return [played count];
 }

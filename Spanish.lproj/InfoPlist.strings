@@ -1,6 +1,6 @@
-﻿/* Localized versions of Info.plist keys */
+/* Localized versions of Info.plist keys */
 
 CFBundleName = "Freecell";
-CFBundleGetInfoString = "Freecell, Copyright 2003–2012 Alisdair McDiarmid.";
-NSHumanReadableCopyright = "Copyright 2003–2012 Alisdair McDiarmid.";
+CFBundleGetInfoString = "Freecell, Copyright 2003–2019 Alisdair McDiarmid.";
+NSHumanReadableCopyright = "Copyright 2003–2019 Alisdair McDiarmid.";
 CFBundleHelpBookName = "Ayuda Con Freecell";
