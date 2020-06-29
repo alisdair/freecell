@@ -1,6 +1,6 @@
 # Freecell
 
-[Freecell for Mac OS X—download here](https://www.dropbox.com/sh/wjzokkf6a4kg8c6/RRXmZWaORp).
+[Freecell for Mac OS X—download here](https://github.com/alisdair/freecell/releases).
 
 ![Screenshot of Freecell](http://i.imgur.com/C0eGcRj.png)
 
