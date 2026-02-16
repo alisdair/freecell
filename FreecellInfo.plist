@@ -1,0 +1,11 @@
+{
+  ApplicationDescription = "Freecell";
+  ApplicationIcon = "Freecell.tiff";
+  ApplicationName = "FreeCell";
+  ApplicationRelease = 56;
+  Authors = ("Alisdair McDiarmid", "Graham Lee");
+  Copyright = "Copyright (c) 2003 Alisdair McDiarmid";
+  CopyrightDescription = "See Licence.txt in the app bundle.";
+  NSMainNibFile = "MainMenu.nib";
+  URL="https://github.com/iamleeg/freecell";
+}

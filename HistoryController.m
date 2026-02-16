@@ -48,8 +48,8 @@
 - (void) awakeFromNib
 {
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    
-    NSString *file = [@"~/Library/Preferences/org.wasters.Freecell.history.plist" stringByExpandingTildeInPath];
+    NSArray *libraryPaths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
+    NSString *file = [[libraryPaths lastObject] stringByAppendingPathComponent:@"Preferences/org.wasters.Freecell.history.plist"];
     history = [[History alloc] initWithFile: file];
 
     [tableView setDataSource: history];
